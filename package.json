@@ -15,6 +15,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build -m '[ci skip] Updates'"
   },
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@polkadot/api": "^2.2.1",
     "@polkadot/extension-dapp": "^0.34.1",
@@ -24,6 +25,7 @@
     "@polkadot/ui-settings": "^0.60.1",
     "@polkadot/util": "^3.5.1",
     "@polkadot/util-crypto": "^3.5.1",
+    "@substrate/api-sidecar": "^1.0.0",
     "prop-types": "^15.7.2",
     "query-string": "^6.13.5",
     "react": "^16.14.0",
